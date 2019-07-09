@@ -63,7 +63,7 @@
             alertTip,
         },
         created(){
-            this.initData();
+            // this.initData();
             //清除购物车中当前商铺的信息
             if (this.shopid) {
                 this.CLEAR_CART(this.shopid);
@@ -99,7 +99,7 @@
             ]),
             //初始化信息
             async initData(){
-            	this.payDetail = await payRequest(this.orderMessage.order_id, this.userInfo.user_id);
+            	this.payDetail = await payRequest(this.orderMessage.orderId, this.userInfo.user_id);
                 if (this.payDetail.message) {
                     this.showAlert = true;
                     this.alertText = this.payDetail.message;
@@ -119,10 +119,17 @@
                 }, 1000);
             },
             //确认付款
-            confrimPay(){
-                this.showAlert = true;
-                this.alertText = '当前环境无法支付，请打开官方APP进行付款';
-                this.gotoOrders = true;
+            async confrimPay(){
+                this.payDetail = await payRequest(this.orderMessage.orderId, this.userInfo.user_id);
+                if (this.payDetail.message) {
+                    this.showAlert = true;
+                    this.alertText = this.payDetail.message;
+                    this.gotoOrders = true;
+                    return
+                }
+                // this.showAlert = true;
+                // this.alertText = '当前环境无法支付，请打开官方APP进行付款';
+                // this.gotoOrders = true;
             },
             //关闭提示框，跳转到订单列表页
             closeTipFun(){
