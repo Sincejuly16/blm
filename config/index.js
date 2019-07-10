@@ -6,7 +6,7 @@ module.exports = {
         env: {
             NODE_ENV: '"production"'
         },
-        index: path.resolve(__dirname, '../elm/index.html'),
+        index: path.resolve(__dirname, '../blm/index.html'),
         assetsRoot: path.resolve(__dirname, '../blm'),
         assetsSubDirectory: 'static',
         assetsPublicPath: './',
