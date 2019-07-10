@@ -1112,7 +1112,7 @@
         }
     }
     .buy_cart_container{
-        position: absolute;
+        position: fixed;
         background-color: #3d3d3f;
         bottom: 0;
         left: 0;
