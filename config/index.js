@@ -7,9 +7,9 @@ module.exports = {
             NODE_ENV: '"production"'
         },
         index: path.resolve(__dirname, '../elm/index.html'),
-        assetsRoot: path.resolve(__dirname, '../elm'),
+        assetsRoot: path.resolve(__dirname, '../blm'),
         assetsSubDirectory: 'static',
-        assetsPublicPath: '/elm/',
+        assetsPublicPath: './',
         productionSourceMap: true,
         // Surge or Netlify already gzip all static assets for you.
         // Before setting to `true`, make sure to:
