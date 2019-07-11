@@ -30,15 +30,15 @@
             </section>
             <section class="info-data">
                 <ul class="clear">
-                    <router-link to="/balance" tag="li" class="info-data-link">
+                    <router-link to="/profile" tag="li" class="info-data-link">
                         <span class="info-data-top"><b>{{parseInt(balance).toFixed(2)}}</b>元</span>
                         <span class="info-data-bottom">我的余额</span>
                     </router-link>
-                    <router-link to="/benefit" tag="li" class="info-data-link">
+                    <router-link to="/profile" tag="li" class="info-data-link">
                         <span class="info-data-top"><b>{{count}}</b>个</span>
                         <span class="info-data-bottom">我的优惠</span>
                     </router-link>
-                    <router-link to="/points" tag="li" class="info-data-link">
+                    <router-link to="/profile" tag="li" class="info-data-link">
                         <span class="info-data-top"><b>{{pointNumber}}</b>分</span>
                         <span class="info-data-bottom">我的积分</span>
                     </router-link>
@@ -78,7 +78,7 @@
                     </div>
                 </a> -->
                 <!-- 饱了么会员卡 -->
-                <router-link to='/vipcard' class="myorder">
+                <!-- <router-link to='/vipcard' class="myorder">
                     <aside>
                         <svg fill="#ffc636">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#vip"></use>
@@ -92,11 +92,11 @@
                             </svg>
                         </span>
                     </div>
-                </router-link>
+                </router-link> -->
             </section>
             <section class="profile-1reTe">
                 <!-- 服务中心 -->
-                <router-link to='/service' class="myorder">
+                <!-- <router-link to='/service' class="myorder">
                     <aside>
                         <svg fill="#4aa5f0">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#service"></use>
@@ -110,7 +110,7 @@
                             </svg>
                         </span>
                     </div>
-                </router-link>
+                </router-link> -->
                 <!-- 下载饱了么APP -->
                 <router-link to='/download' class="myorder">
                     <aside>

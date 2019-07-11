@@ -50,7 +50,7 @@
                 }else{
                     try {
                         let elemIF = document.createElement("iframe");
-                        elemIF.src = 'http://cangdu.org/files/elm.apk';
+                        elemIF.src = 'http://106.15.46.73/files/blm.apk';
                         elemIF.style.display = "none";
                         document.body.appendChild(elemIF);
                     } catch (e) {
