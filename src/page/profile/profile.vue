@@ -62,7 +62,7 @@
                     </div>
                 </router-link>
                 <!-- 积分商城 -->
-                <a href='https://home.m.duiba.com.cn/#/chome/index' class="myorder">
+                <!-- <a href='https://home.m.duiba.com.cn/#/chome/index' class="myorder">
                     <aside>
                         <svg fill="#fc7b53">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#point"></use>
@@ -76,8 +76,8 @@
                             </svg>
                         </span>
                     </div>
-                </a>
-                <!-- 饿了么会员卡 -->
+                </a> -->
+                <!-- 饱了么会员卡 -->
                 <router-link to='/vipcard' class="myorder">
                     <aside>
                         <svg fill="#ffc636">
@@ -85,7 +85,7 @@
                         </svg>
                     </aside>
                     <div class="myorder-div">
-                        <span>饿了么会员卡</span>
+                        <span>饱了么会员卡</span>
                         <span class="myorder-divsvg">
                             <svg fill="#bbb">
                                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use>
@@ -111,7 +111,7 @@
                         </span>
                     </div>
                 </router-link>
-                <!-- 下载饿了么APP -->
+                <!-- 下载饱了么APP -->
                 <router-link to='/download' class="myorder">
                     <aside>
                         <svg fill="#3cabff">
@@ -119,7 +119,7 @@
                         </svg>
                     </aside>
                     <div class="myorder-div" style="border-bottom:0;">
-                        <span>下载饿了么APP</span>
+                        <span>下载饱了么APP</span>
                         <span class="myorder-divsvg">
                             <svg fill="#bbb">
                                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use>

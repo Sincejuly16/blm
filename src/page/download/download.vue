@@ -3,7 +3,7 @@
         <head-top head-title="下载" go-back='true'></head-top>
         <section class="dowload_container">
             <img src='../../images/elmlogo.jpeg' class="logo_img">
-            <p>下载饿了么APP</p>
+            <p>下载饱了么APP</p>
             <div class="determine" @click="download">下载</div>
         </section>
         <alert-tip v-if="showAlert" @closeTip="showAlert = false" :alertText="alertText"></alert-tip>

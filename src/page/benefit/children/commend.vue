@@ -65,7 +65,7 @@
         methods: {
             fenxiang(){
                 this.showAlert = true;
-                this.alertText = '请在饿了么APP中打开';
+                this.alertText = '请在饱了么APP中打开';
             }
         }
     }
